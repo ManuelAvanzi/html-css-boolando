@@ -3,3 +3,29 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    background-color: #cecece;
+}
+
+/* classi utility */
+.container{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    border:1px solid black;
+    padding-top: 5px;
+    text-align: center;
+}
+.item{
+    position: relative;
+    width: calc(1000px / 4 - 1px);
+    display: inline-block;
+    margin: 5px 15px 0 15px;
+}
+
+
+
+/* qui ci andranno le classi hover: */
+.prima{
+    width: 260px;
+}
