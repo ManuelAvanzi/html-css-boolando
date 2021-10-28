@@ -15,12 +15,17 @@ body{
     border:1px solid black;
     padding-top: 5px;
     text-align: center;
+    
 }
 .item{
     position: relative;
     display: inline-block;
     margin: 5px 15px 0 15px;
+    width: 260px;
+    
 }
+
+/* cuore , sconto e pulsante verde */
 .cuore{
     width: 30px;
     font-size: 25px;
@@ -31,7 +36,37 @@ body{
     top:10px;
     background-color: white;
 }
-
+.item > .sconto{
+    position: absolute;
+    left:0;
+    bottom:25px;
+    width: 35px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: rgba(245, 39, 145, 1);
+    color:white;
+    font-size: 13px;
+    font-weight: bold;
+    z-index: 1000;
+  }
+  .item> .sostenibilità{
+      position:absolute;
+      left:0;
+      bottom: 25px;
+      height: 20px;
+      width: 90px;
+      line-height: 20px;
+      text-align: center;
+      background-color: green;
+      color:white;
+      font-size: 13px;
+      font-weight: bold;
+      z-index: 1000;
+  }
+.levis{
+    text-align: left;
+}
 
 
 
