@@ -22,10 +22,13 @@ body{
     display: inline-block;
     margin: 5px 15px 0 15px;
     width: 260px;
-    
 }
 
-/* cuore , sconto e pulsante verde */
+
+
+
+
+/* cuore , sconto e sostenibilità */
 .cuore{
     width: 30px;
     font-size: 25px;
@@ -49,8 +52,8 @@ body{
     font-size: 13px;
     font-weight: bold;
     z-index: 1000;
-  }
-  .item> .sostenibilità{
+}
+.item> .sostenibilità{
       position:absolute;
       left:0;
       bottom: 25px;
@@ -63,14 +66,39 @@ body{
       font-size: 13px;
       font-weight: bold;
       z-index: 1000;
-  }
+}
+
+/* testi sotto alle immagini  */
+
+
+
+
 .levis{
-    text-align: left;
+    text-align: left;        
 }
 
 
 
-/* qui ci andranno le classi hover: */
+
+
+
+
+
+
+
+/* effetto hover */
 .prima{
     width: 260px;
 }
+.dopo{
+    width: 260px;
+    display: none;
+}
+
+.item:hover .prima{
+    display: none;
+}
+.item:hover .dopo{
+    display: inline-block;
+}
+
