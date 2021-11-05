@@ -1,118 +1,232 @@
+
 *{
     margin:0 auto;
     padding:0;
     box-sizing: border-box;
-}
 
-body{
-    background-color: #cecece;
-    font-family: font-family: 'Festive', cursive;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
 }
-
-/* classi utility */
-.container{
-    width: 1000px;
-    margin: auto;
-    background-color: white;
-    padding-top: 5px;
-    text-align: center;
+main{
+    width:920px;
+    margin:auto;
     
 }
-.item{
+img{
+    width: 100%;
+}
+.card{
+    margin:10px;
+    width: 280px;
+    border:1px solid black;
     position: relative;
     display: inline-block;
-    margin: 5px 15px 10px 15px;
-    width: 260px;
-    height: 440px;
-    
 }
-
-
-
-
-
-/* cuore , sconto e sostenibilità */
-.cuore{
-    width: 30px;
-    font-size: 25px;
-    
-    text-align: center;
+.over{
     position:absolute;
-    right:0;
+}
+.heart{
     top:10px;
+    right:0;
     background-color: white;
-}
-.item > .sconto{
-    position: absolute;
-    left:0;
-    bottom:85px;
-    width: 35px;
+    width: 20px;
     height: 20px;
-    line-height: 20px;
+    font-size: 18px;
     text-align: center;
-    background-color: rgba(245, 39, 145, 1);
+    vertical-align: 20px;
+}
+.riga{
+    bottom:80px;
+    left:0;
+}
+.price{
+    background-color: darkred;
     color:white;
-    font-size: 13px;
-    font-weight: bold;
-    z-index: 1000;
+    padding:2px 4px;
+    
 }
-.item> .sostenibilità{
-      position:absolute;
-      left:0;
-      bottom: 85px;
-      height: 20px;
-      width: 90px;
-      line-height: 20px;
-      text-align: center;
-      background-color: green;
-      color:white;
-      font-size: 13px;
-      font-weight: bold;
-      z-index: 1000;
+.sostenibilità{
+    left:45px;
+    background-color: green;
+    color:white;
+    padding:2px 4px;
 }
 
-/* testi sotto alle immagini  */
 
+
+
+
+/* --------show e hide ---------- */
+.show{
+    display:block;
+}
+.hide{
+    display:none;
+}
 
 .testi{
-    position: absolute;
-    bottom:0;
-    left: 0;
-    width: 100%;
     text-align: left;
-    
-    
+    margin: 2px;
 }
-.nomearticolo{
-    font-weight: bold;
-    margin-bottom: 0px;
+.relax{
+    text-transform: capitalize;
+    font-weight: bolder;
 }
-.prezzo{
+.red{
     color:red;
-}
-.sconto{
-    text-decoration:line-through;
+    
 }
 
-
-
-
-
-/* effetto hover */
-.prima{
-    width: 260px;
+/* -------effetto---------- */
+.card:hover .hide{
+    display: block;
 }
-.dopo{
-    width: 260px;
+.card:hover .show{
     display: none;
 }
 
-.item:hover .prima{
-    display: none;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
 }
-.item:hover .dopo{
+body{
+    font-family: Roboto, sans-serif;
+    
+}
+.container{
+    width: 850px;
+    background-color: rgba(0, 238, 255, 0.418);
+    margin:auto;
+    padding-top: 180px;
+    
+}
+img{
+    width:100%;
+}
+
+/* -----------CARD---------- */
+/* .card{
+    margin:10px;
+    
+    width: 260px;
+    position:relative;
     display: inline-block;
-}
+    
 
+}
+.heart{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 25px;
+    position:absolute;
+    top:10px;
+    right:0;
+    border-radius: 10px;
+}
+.riga-discount{
+    position:absolute;
+    bottom:90px;
+    left:0;
+    color:white;
+}
+.riga-discount>.sconto{
+    
+    background-color: crimson;
+    margin-right:10px;
+}
+.riga-discount>.sostenibilità{
+    background-color: green;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.card:hover .hide{
+    display: block;
+}
+.card:hover .show{
+    display: none;
+}
+.levis{
+    text-align: left;
+} */ 
